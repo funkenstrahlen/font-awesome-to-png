@@ -667,7 +667,6 @@ if __name__ == '__main__':
             if not os.path.exists(foldername):
                 os.makedirs(foldername)
             for icon in sorted(icons.keys()):
-                # Exporting multiple icons -- treat the filename option as name prefix
                 filename = foldername + prefix + icon + ".png"
 
                 print("Exporting icon \"%s\" as %s (%ix%i pixels)" %
